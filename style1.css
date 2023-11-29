@@ -1,0 +1,140 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: black;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 4px;
+}
+
+.nav-btn:hover {
+  background-color: #45a049;
+}
+
+/* Section styling */
+section {
+  margin-top: 20px;
+}
+
+#table-section {
+  padding: 20px;
+  text-align: center; /* Center text within the section */
+}
+
+table {
+  margin: 0 auto; /* Center the table horizontally */
+  width: 50%; /* Adjust the width as needed */
+  border-collapse: collapse;
+  background-color: #ababab;
+}
+
+table, td, th {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
+.container {
+  background: silver;
+  width: 50;
+  max-width: 900px;
+  padding: 10px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  transform: translateY(-10vh);
+  transition: transform 0.3s ease;
+  height: 250vh;
+}
+
+.container:hover {
+  transform: translateY(0);
+}
+
+/* Award styling */
+.award {
+  background: #fff;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.award input {
+  display: none;
+}
+
+.award input:checked + .award-label + .award-content {
+  max-height: 2000px;
+}
+
+.award-label {
+  display: block;
+  padding: 10px 20px;
+  background: #ddd;
+  color: #000;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+
+.award-label:after {
+  content: '+';
+  float: right;
+}
+
+.award input:checked + .award-label:after {
+  content: '-';
+}
+
+.award-content {
+  padding: 0 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in;
+}
+
+img {
+  width: 100px;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+.points {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Footer styling */
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+
+section {
+ 
+  margin-bottom: 70px;
+}
+
+.text{
+  font-weight: bold;
+}
